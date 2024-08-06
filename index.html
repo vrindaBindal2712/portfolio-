@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="WhatsApp Image 2024-04-17 at 12.41.38_fa8a54f4.jpg" alt="Vrinda " width="50" height = "70">
+          
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vrinda ">Vrinda Bindal</h1>
+
+          <p class="title"> Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="bindalvrinda64@gmail.com" class="contact-link">bindalvrinda64@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9057632712</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">December 27, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>kota , Rajasthan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+              <a href="https://linkedin.com/in/vrinda-bindal-183032251" target="_blank" class="social-item">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/vrindaBindal2712" target="_blank" class="social-item">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link " data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link " data-nav-link>resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      < class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+    
+
+I am a third-year B.Tech student at Manipal University Jaipur, specializing in Computer Science. I have a strong passion for web development and have honed my skills in creating professional and dynamic web applications. In addition to my web development expertise, I am well-versed in data structures and algorithms, enabling me to solve complex problems efficiently. With a solid foundation in programming and a keen eye for design, I strive to deliver high-quality and user-friendly digital solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm Learning</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Proficient in HTML, CSS, JavaScript, and currently learning ReactJS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Structure and Algorithm</h4>
+
+                <p class="service-item-text">
+                 Solved 100+ problems on leetcode .
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        
+
+        
+
+        <!--
+          - clients
+        -->
+       
+
+          
+              <h3 class="h2 section-title">Key Strengths</h3>
+       
+      
+          <section class="strengths-list">
+              <div class="strength-card">
+                  <div class="strength-icon">
+                      <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+                  <div class="strength-info">
+                      <p class="strength-description">Proficient communicator skilled in conveying complex ideas succinctly and fostering productive dialogue to achieve team objectives.</p>
+                  </div>
+              </div>
+      
+              <div class="strength-card">
+                  <div class="strength-icon">
+                      <ion-icon name="bar-chart-outline"></ion-icon>
+                  </div>
+                  <div class="strength-info">
+                      <p class="strength-description">Proven ability to optimize organizational efficiency through adept utilization of soft skills, fostering seamless collaboration and task prioritization.</p>
+                  </div>
+              </div>
+      
+              <div class="strength-card">
+                  <div class="strength-icon">
+                      <ion-icon name="people-outline"></ion-icon>
+                  </div>
+                  <div class="strength-info">
+                      <p class="strength-description">Adapting to diverse situations with ease, leveraging strong interpersonal skills and emotional intelligence to navigate challenges effectively.</p>
+                  </div>
+              </div>
+          </section>
+      
+      
+      
+        
+        
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume active" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <div class="timeline-item-header">
+                <img src="image.png" alt="Manipal University" class="timeline-icon">
+                <h4 class="h4 timeline-item-title">B.Tech From Manipal University Jaipur</h4>
+              </div>
+              <span>2022 — 2026</span>
+              <p class="timeline-text">
+                Pursuing B.Tech in Computer Science.
+                <span>Jaipur, Rajasthan</span>
+                <span>CGPA - 8.63</span>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-item-header">
+                <img src="2021-09-26.jpg" alt="Class 12" class="timeline-icon">
+                <h4 class="h4 timeline-item-title">Shiv Jyoti International School</h4>
+              </div>
+              <span>2022</span>
+              <p class="timeline-text">
+               Completed Class 12th .
+                <span>Kota, Rajasthan</span>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-item-header">
+                <img src="disha-delphi-public-school-kota-logo-removebg-preview-removebg-preview.jpg" alt="Class 10" class="timeline-icon">
+                <h4 class="h4 timeline-item-title">Disha Delphi Public School</h4>
+              </div>
+              <span>2020</span>
+              <p class="timeline-text">
+               Completed class 10th .
+                <span>Kota, Rajasthan</span>
+              </p>
+            </li>
+          </ol>
+        </section>
+        
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern at Zidio development</h4>
+
+              <span>20 June'24 - 20 July'24</span>
+
+          </ol>
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Awards</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Dean's list Award </h4>
+  
+                <span>Achieved the Dean's List award for attaining a GPA of 9+ in the 4th semester.</span>
+  
+  
+            </ol>
+
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+            
+                <h3 class="h3">Certificates</h3>
+              </div>
+            
+              <ol class="timeline-list">
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed Red Hat System Administration I (RH124) course</h4>
+                  <span>Gained essential skills in Linux system administration from Red Hat. Jan-April 2024</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed Red Hat System Administration II (RH134) course</h4>
+                  <span>Acquired advanced Linux system administration skills. Jan-April 2024</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed HTML course by Great Learning</h4>
+                  <span>Mastered HTML fundamentals, demonstrating proficiency in web development essentials. Jan-April 2024</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed CSS course by Great Learning</h4>
+                  <span>Earned a certification in web styling and design principles. Jan-April 2024</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed Database course by Oracle Academy</h4>
+                  <span>Mastered foundational database concepts, honing skills vital for effective data management. Jan-April 2024</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed SQL and Database Management course by Oracle Academy</h4>
+                  <span>Honed advanced querying and data manipulation skills. Jan-April 2024</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Completed Java Foundation Course by Oracle Academy</h4>
+                  <span>Attained proficiency in Java, demonstrating mastery in core concepts and programming fundamentals. Sep-Dec 2023</span>
+                </li>
+            
+              </ol>
+            </section>
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+            
+                <h3 class="h3">Projects</h3>
+              </div>
+            
+              <ol class="timeline-list">
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Job Portal Website</h4>
+                  <span>Developed a responsive job portal with secure user authentication, job search with filters, profile management, job applications, and separate dashboards for job seekers and employers using React. 2024/07 – present</span>
+                </li>
+            
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Hospital Management Website</h4>
+                  <span>Built a front-end hospital management system prototype for patient registration and appointment booking using HTML, CSS, and JavaScript. 2024/04 – 2024/06</span>
+                </li>
+            
+              </ol>
+            </section>
+                        
+            <section class="skills">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+            
+                <h3 class="h3">Skills & Expertise</h3>
+              </div>
+            
+              <div class="skills-container">
+            
+                <div class="skills-category">
+                  <h4 class="h4 skills-category-title">Languages</h4>
+                  <div class="skills-list">
+                    <span class="skill-item">Java</span>
+                    <span class="skill-item">C</span>
+                    <span class="skill-item">HTML5</span>
+                    <span class="skill-item">CSS</span>
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">ReactJs</span>
+                  </div>
+                </div>
+            
+                <div class="skills-category">
+                  <h4 class="h4 skills-category-title">Database</h4>
+                  <div class="skills-list">
+                    <span class="skill-item">SQL</span>
+                  </div>
+                </div>
+            
+                <div class="skills-category">
+                  <h4 class="h4 skills-category-title">Software</h4>
+                  <div class="skills-list">
+                    <span class="skill-item">VS Code</span>
+                    <span class="skill-item">Workbench</span>
+                  </div>
+                </div>
+            
+              </div>
+            </section>
+            
+            
+
+        </section>
+
+        
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+      
+      
+      
+
+
+
+      
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact active" data-page="contact">
+        <header>
+            <h2 class="h2 article-title">Contact</h2>
+        </header>
+    
+        <section class="contact-details">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-title">Email</p>
+                    <a href="mailto:bindalvrinda64@gmail.com" class="contact-link">bindalvrinda64@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-title">LinkedIn</p>
+                    <a href="https://linkedin.com/in/vrinda-bindal-183032251" target="_blank" class="contact-link">View Profile</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <ion-icon name="logo-github"></ion-icon>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-title">GitHub</p>
+                    <a href="https://github.com/vrindaBindal2712" target="_blank" class="contact-link">Visit GitHub</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                    <p class="contact-title">Phone</p>
+                    <a href="tel:+919057632712" class="contact-link">+91 9057632712</a>
+                </div>
+            </div>
+        </section>
+    
+        <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form action="#" class="form" data-form>
+                <div class="input-wrapper">
+                    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                    <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                </div>
+                <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                <button class="form-btn" type="submit" disabled data-form-btn>
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <span>Send Message</span>
+                </button>
+            </form>
+        </section>
+    </article>
+    
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
